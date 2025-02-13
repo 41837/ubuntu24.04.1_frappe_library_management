@@ -1,0 +1,123 @@
+{
+ "actions": [],
+ "autoname": "format:M-{YY}-{MM}-{####}",
+ "creation": "2025-02-12 13:50:02.804956",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "manga_name",
+  "column_break_ntlc",
+  "author",
+  "artist",
+  "column_break_ntoc",
+  "publisher",
+  "publication_date",
+  "section_break_qvdq",
+  "synopsis",
+  "status",
+  "cover_image"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_qvdq",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "manga_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Manga Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_ntlc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "author",
+   "fieldtype": "Data",
+   "label": "Author"
+  },
+  {
+   "fieldname": "artist",
+   "fieldtype": "Data",
+   "label": "Artist"
+  },
+  {
+   "fieldname": "publisher",
+   "fieldtype": "Data",
+   "label": "Publisher"
+  },
+  {
+   "fieldname": "publication_date",
+   "fieldtype": "Date",
+   "label": "Publication Date"
+  },
+  {
+   "fieldname": "synopsis",
+   "fieldtype": "Text Editor",
+   "label": "Synopsis"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Ongoing\nCompleted\nHiatus"
+  },
+  {
+   "fieldname": "cover_image",
+   "fieldtype": "Attach Image",
+   "label": "Cover Image"
+  },
+  {
+   "fieldname": "column_break_ntoc",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2025-02-12 14:43:54.615040",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Manga",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Librarian",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Library Member",
+   "share": 1
+  }
+ ],
+ "sort_field": "creation",
+ "sort_order": "DESC",
+ "states": []
+}
