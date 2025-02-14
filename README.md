@@ -40,3 +40,4 @@ This app can use GitHub Actions for CI. The following workflows are configured:
 mit
 
 -- Add comment for test push to GitHub
+-- Add comment 2
