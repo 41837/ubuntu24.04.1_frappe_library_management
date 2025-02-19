@@ -1,7 +1,6 @@
 {
  "actions": [],
- "allow_rename": 1,
- "autoname": "format:LM-{######}",
+ "autoname": "LM-.#####",
  "creation": "2025-02-12 14:50:57.951576",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -46,11 +45,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2025-02-12 14:54:35.404406",
+ "modified": "2025-02-14 17:06:57.957609",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Library Member",
- "naming_rule": "Expression",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {

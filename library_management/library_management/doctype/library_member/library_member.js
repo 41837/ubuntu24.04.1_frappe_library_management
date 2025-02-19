@@ -6,3 +6,13 @@
 
 // 	},
 // });
+
+frappe.ui.form.on('Library Member', {
+    after_save: function(frm) {
+        frappe.msgprint({
+            title: __('สำเร็จ'),
+            indicator: 'green',
+            message: __('บันทึกข้อมูลสำเร็จ! 🎉')
+        });
+    }
+});
