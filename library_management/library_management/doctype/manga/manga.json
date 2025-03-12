@@ -15,7 +15,8 @@
   "section_break_qvdq",
   "synopsis",
   "status",
-  "cover_image"
+  "cover_image",
+  "amended_from"
  ],
  "fields": [
   {
@@ -72,11 +73,22 @@
   {
    "fieldname": "column_break_ntoc",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Manga",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
   }
  ],
  "index_web_pages_for_search": 1,
+ "is_submittable": 1,
  "links": [],
- "modified": "2025-02-12 14:43:54.615040",
+ "modified": "2025-03-06 11:33:08.217318",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Manga",
@@ -94,27 +106,6 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
-  },
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Librarian",
-   "share": 1,
-   "write": 1
-  },
-  {
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Library Member",
-   "share": 1
   }
  ],
  "sort_field": "creation",
